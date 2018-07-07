@@ -16,7 +16,7 @@ bot.on('message', message=>{
 //commands - commands for bot at here
     
     //Deleting many message with 'purge' command
-    if (!msg.startsWith(prefix + '#PERKENALAN')){
+    if (!msg.startsWith(prefix + '!intro')){
         //wrap this in an async since awaits only work in them
     
         
